@@ -1,0 +1,30 @@
+{
+  "name": "http-methods-enum",
+  "version": "0.0.1",
+  "description": "Use human key names instead of string names for http methods.",
+  "keywords": [
+    "http",
+    "methods",
+    "enum",
+    "get",
+    "post"
+  ],
+  "author": {
+    "name": "Rostyslav Khanas",
+    "url": "https://github.com/rtkhanas"
+  },
+  "license": "MIT",
+  "files": [
+    "dist/http-methods-enum.js",
+    "dist/http-methods-enum.js.map",
+    "http-methods-enum.d.ts"
+  ],
+  "main": "dist/http-methods-enum.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:opensource-cards/http-methods-enum.git"
+  },
+  "devDependencies": {
+    "typescript": "*"
+  }
+}

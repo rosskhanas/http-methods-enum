@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outFile": "dist/http-methods-enum.js",
+    "sourceMap": true
+  },
+  "files": [
+    "src/http-methods-enum.ts"
+  ]
+}
