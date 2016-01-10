@@ -1,4 +1,4 @@
-module HttpMethodsEnum {
-	export var GET: string = "GET";
-	export var POST: string = "POST";
+export class HttpMethodsEnum {
+	static GET: string = "GET";
+	static POST: string = "POST";
 }

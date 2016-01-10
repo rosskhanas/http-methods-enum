@@ -1,6 +1,6 @@
 {
   "name": "http-methods-enum",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Use human key names instead of string names for http methods.",
   "keywords": [
     "http",
@@ -15,11 +15,9 @@
   },
   "license": "MIT",
   "files": [
-    "dist/http-methods-enum.js",
-    "dist/http-methods-enum.js.map",
-    "http-methods-enum.d.ts"
+    "src/http-methods-enum.ts"
   ],
-  "main": "dist/http-methods-enum.js",
+  "main": "src/http-methods-enum.ts",
   "repository": {
     "type": "git",
     "url": "git@github.com:opensource-cards/http-methods-enum.git"
