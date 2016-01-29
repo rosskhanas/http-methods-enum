@@ -1,4 +1,4 @@
-export class HttpMethodsEnum {
-	static GET: string = "GET";
-	static POST: string = "POST";
-}
+export const GET = 'GET';
+export const POST = 'POST';
+export const PUT = 'PUT';
+export const DELETE = 'DELETE';

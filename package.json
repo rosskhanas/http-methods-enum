@@ -1,6 +1,6 @@
 {
   "name": "http-methods-enum",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Use human key names instead of string names for http methods.",
   "keywords": [
     "http",
@@ -23,6 +23,8 @@
     "url": "git@github.com:opensource-cards/http-methods-enum.git"
   },
   "devDependencies": {
-    "typescript": "*"
+    "typescript": "*",
+    "ts-loader": "*",
+    "webpack": "*"
   }
 }
