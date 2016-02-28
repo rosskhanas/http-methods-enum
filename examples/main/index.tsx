@@ -1,6 +1,6 @@
-import * as HttpMethodsEnum from '../../src/http-methods-enum';
+import * as httpMethodsEnum from '../../src/http-methods-enum';
 
-console.log(HttpMethodsEnum.GET);
-console.log(HttpMethodsEnum.POST);
-console.log(HttpMethodsEnum.PUT);
-console.log(HttpMethodsEnum.DELETE);
+console.log(httpMethodsEnum.GET);
+console.log(httpMethodsEnum.POST);
+console.log(httpMethodsEnum.PUT);
+console.log(httpMethodsEnum.DELETE);

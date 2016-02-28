@@ -44,11 +44,11 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var HttpMethodsEnum = __webpack_require__(1);
-	console.log(HttpMethodsEnum.GET);
-	console.log(HttpMethodsEnum.POST);
-	console.log(HttpMethodsEnum.PUT);
-	console.log(HttpMethodsEnum.DELETE);
+	var httpMethodsEnum = __webpack_require__(1);
+	console.log(httpMethodsEnum.GET);
+	console.log(httpMethodsEnum.POST);
+	console.log(httpMethodsEnum.PUT);
+	console.log(httpMethodsEnum.DELETE);
 
 
 /***/ },
