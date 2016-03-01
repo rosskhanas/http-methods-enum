@@ -1,17 +1,17 @@
 var path = require('path');
 
 module.exports = {
-	entry: './examples/main/index.tsx',
+	entry: './examples/main/index.js',
 	output: {
 		path: __dirname,
-		filename: 'examples/main/index.js'
+		filename: 'examples/main/bundle.js'
 	},
 	resolve: {
-		extensions: ['', '.js', '.ts', '.tsx']
+		extensions: ['', '.js']
 	},
 	module: {
 		loaders: [
-			{ test: /\.tsx?$/, loader: 'ts-loader' }
+			{ test: /\.(js)(\?.*)?$/, loader: 'babel-loader', exclude: /node_modules/ }
 		]
 	}
 };

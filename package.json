@@ -23,8 +23,12 @@
     "url": "git@github.com:opensource-cards/http-methods-enum.git"
   },
   "devDependencies": {
-    "typescript": "*",
-    "ts-loader": "*",
+    "babel": "^6.3.26",
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-transform-object-rest-spread": "^6.5.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
     "webpack": "*"
   }
 }
