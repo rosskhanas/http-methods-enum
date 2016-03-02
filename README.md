@@ -4,7 +4,7 @@ Use human key names instead of string names for http methods.
 
 ### Installation
 
-To install the stable version:
+Using [npm](https://www.npmjs.com/):
 
 ```
 npm install --save http-methods-enum
