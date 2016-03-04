@@ -48,17 +48,45 @@
 
 	var _httpMethodsEnum = __webpack_require__(1);
 
-	var httpMethodsEnum = _interopRequireWildcard(_httpMethodsEnum);
+	var _httpMethodsEnum2 = _interopRequireDefault(_httpMethodsEnum);
 
-	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	console.log(httpMethodsEnum.GET);
-	console.log(httpMethodsEnum.POST);
-	console.log(httpMethodsEnum.PUT);
-	console.log(httpMethodsEnum.DELETE);
+	console.log(_httpMethodsEnum2.default.GET);
+	console.log(_httpMethodsEnum2.default.POST);
+	console.log(_httpMethodsEnum2.default.PUT);
+	console.log(_httpMethodsEnum2.default.DELETE);
 
 /***/ },
 /* 1 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _httpMethodsEnum = __webpack_require__(2);
+
+	var httpMethodsEnum = _interopRequireWildcard(_httpMethodsEnum);
+
+	function _interopRequireWildcard(obj) {
+	  if (obj && obj.__esModule) {
+	    return obj;
+	  } else {
+	    var newObj = {};if (obj != null) {
+	      for (var key in obj) {
+	        if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key];
+	      }
+	    }newObj.default = obj;return newObj;
+	  }
+	}
+
+	exports.default = httpMethodsEnum;
+
+/***/ },
+/* 2 */
 /***/ function(module, exports) {
 
 	'use strict';

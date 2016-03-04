@@ -1,4 +1,4 @@
-import * as httpMethodsEnum from '../../src/http-methods-enum';
+import httpMethodsEnum from 'http-methods-enum';
 
 console.log(httpMethodsEnum.GET);
 console.log(httpMethodsEnum.POST);
