@@ -1,4 +1,7 @@
-# http-methods-enum
+# http-methods-enum [![npm package][npm-badge]][npm]
+
+[npm-badge]: https://badge.fury.io/js/http-methods-enum.svg
+[npm]: https://www.npmjs.org/package/http-methods-enum
 
 Use human key names instead of string names for http methods.
 
