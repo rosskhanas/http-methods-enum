@@ -4,8 +4,8 @@ const PUT = 'PUT';
 const DELETE = 'DELETE';
 
 export default {
-	GET,
-	POST,
-	PUT,
-	DELETE,
+  GET,
+  POST,
+  PUT,
+  DELETE,
 };

@@ -9,7 +9,7 @@ module.exports = {
 	resolve: {
 		extensions: ['', '.js'],
 		alias: {
-			'http-methods-enum': path.join(__dirname, '..', '..', 'lib')
+			'http-methods-enum': path.join(__dirname, '..', '..', 'src')
 		}
 	},
 	module: {

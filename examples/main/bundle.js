@@ -64,7 +64,7 @@
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
-		value: true
+	  value: true
 	});
 	var GET = 'GET';
 	var POST = 'POST';
@@ -72,10 +72,10 @@
 	var DELETE = 'DELETE';
 
 	exports.default = {
-		GET: GET,
-		POST: POST,
-		PUT: PUT,
-		DELETE: DELETE
+	  GET: GET,
+	  POST: POST,
+	  PUT: PUT,
+	  DELETE: DELETE
 	};
 
 /***/ }
