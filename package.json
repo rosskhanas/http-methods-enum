@@ -41,7 +41,7 @@
     "eslint-config-airbnb": "^9.0.1",
     "eslint-plugin-import": "^1.8.0",
     "rimraf": "^2.3.4",
-    "webpack": "^1.13.0"
+    "webpack": "^1.13.1"
   },
   "dependencies": {
     "ts-loader": "^0.8.2",
