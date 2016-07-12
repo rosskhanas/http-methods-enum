@@ -39,7 +39,7 @@
     "babel-preset-react": "^6.3.13",
     "eslint": "^2.11.1",
     "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-import": "^1.8.0",
+    "eslint-plugin-import": "^1.8.1",
     "rimraf": "^2.3.4",
     "webpack": "^1.13.1"
   },
