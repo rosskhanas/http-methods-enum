@@ -25,6 +25,8 @@ console.log(httpMethodsEnum.GET);
 console.log(httpMethodsEnum.POST);
 console.log(httpMethodsEnum.PUT);
 console.log(httpMethodsEnum.DELETE);
+console.log(httpMethodsEnum.PATCH);
+console.log(httpMethodsEnum.HEAD);
 ```
 
 ### Examples
