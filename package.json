@@ -1,13 +1,17 @@
 {
   "name": "http-methods-enum",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Use human key names instead of string names for http methods.",
   "keywords": [
     "http",
     "methods",
     "enum",
     "get",
-    "post"
+    "post",
+    "put",
+    "delete",
+    "patch",
+    "head"
   ],
   "author": {
     "name": "Rostyslav Khanas",
@@ -17,7 +21,7 @@
     "clean": "rimraf lib",
     "lint": "eslint src",
     "build": "npm run lint && npm run clean && babel src --out-dir lib",
-    "build:all": "npm run build && cd examples/main && webpack"
+    "start": "cd examples/main && webpack-dev-server --inline --hot"
   },
   "license": "MIT",
   "files": [
@@ -28,23 +32,21 @@
     "type": "git",
     "url": "git@github.com:opensource-cards/http-methods-enum.git"
   },
+  "dependencies": {},
   "devDependencies": {
     "babel": "^6.3.26",
     "babel-cli": "^6.10.1",
-    "babel-core": "^6.9.1",
-    "babel-eslint": "^6.0.3",
+    "babel-core": "^6.10.4",
+    "babel-eslint": "^6.1.2",
     "babel-loader": "^6.2.1",
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "babel-preset-es2015": "^6.9.0",
-    "babel-preset-react": "^6.3.13",
-    "eslint": "^2.12.0",
+    "babel-preset-react": "^6.11.1",
+    "eslint": "^2.8.0",
     "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-import": "^1.8.1",
-    "rimraf": "^2.3.4",
-    "webpack": "^1.13.1"
-  },
-  "dependencies": {
-    "ts-loader": "^0.8.2",
-    "typescript": "^1.8.10"
+    "eslint-plugin-import": "^1.10.2",
+    "rimraf": "^2.5.3",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   }
 }
