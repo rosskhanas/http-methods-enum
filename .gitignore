@@ -1,7 +1,14 @@
-.idea
-.vscode
-build
+# Compiled files
 lib
-node_modules
+
+# Logs
 *.log
-.DS_Store
+
+# Dependency directories
+node_modules
+
+# JetBrains
+.idea
+
+# Visual Studio Code
+.vscode
