@@ -12,7 +12,7 @@ Use human key names instead of string names for http methods.
 Using [npm](https://www.npmjs.com/):
 
 ```
-npm install --save http-methods-enum
+npm install http-methods-enum --save
 ```
 
 ### The Gist
