@@ -24,14 +24,14 @@
     "build": "npm run lint && npm run clean && babel src --out-dir lib && npm test"
   },
   "license": "MIT",
-  "files": [
-    "lib"
-  ],
-  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:opensource-cards/http-methods-enum.git"
   },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
   "dependencies": {},
   "devDependencies": {
     "babel": "^6.3.26",
