@@ -28,10 +28,6 @@ console.log(HttpMethodsEnum.PATCH);
 console.log(HttpMethodsEnum.HEAD);
 ```
 
-### Examples
-
-* Main ([source](https://github.com/rtkhanas/http-methods-enum/tree/master/examples/main))
-
 ### License
 
 MIT
