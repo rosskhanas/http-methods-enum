@@ -1,5 +1,7 @@
 # http-methods-enum
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/rtkhanas/http-methods-enum.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/rtkhanas/http-methods-enum.svg?branch=master)](https://travis-ci.org/rtkhanas/http-methods-enum)
 [![npm package](https://badge.fury.io/js/http-methods-enum.svg)](https://www.npmjs.org/package/http-methods-enum)
 [![devDependency Status](https://david-dm.org/rtkhanas/http-methods-enum/dev-status.svg)](https://david-dm.org/rtkhanas/http-methods-enum#info=devDependencies)
