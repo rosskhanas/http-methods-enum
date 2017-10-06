@@ -41,7 +41,7 @@
     "eslint": "^4.2.0",
     "eslint-config-airbnb": "^15.0.2",
     "eslint-plugin-import": "^2.7.0",
-    "mocha": "^3.4.2",
+    "mocha": "^4.0.0",
     "rimraf": "^2.6.1"
   }
 }
