@@ -1,8 +1,8 @@
 import assert from 'assert';
 import HttpMethodsEnum from '../src';
 
-describe('check static values', function() {
-  it('values should be correct', function() {
+describe('check static values', () => {
+  it('values should be correct', () => {
     assert.equal(HttpMethodsEnum.GET, 'GET');
     assert.equal(HttpMethodsEnum.POST, 'POST');
     assert.equal(HttpMethodsEnum.PUT, 'PUT');
